@@ -35,12 +35,16 @@ Every card gets the gradient background with white text, tuned icon/slider/toggl
 
 ## Usage
 
-Pick a theme per dashboard (dashboard settings), per view (view settings → theme), or globally in your user profile. Mixing variants per view works well — e.g. Cool for climate, Slate for utilities.
+Pick a theme per dashboard (dashboard settings), per view (view settings → theme), or globally in your user profile. Themes can also be applied per **section** (section settings) or per **card** where the card supports it - the ecovacs-vacuum-card below has a built-in per-card theme picker. Mixing variants per view works well — e.g. Cool for climate, Slate for utilities.
 
-## Companions
+## Related projects
 
-- [AirTouch Card](https://github.com/mycrouch/airtouch-card) — Lovelace card for AirTouch 4/5 zone control (the origin of these gradients).
-- [hass-airtouch fork](https://github.com/mycrouch/hass-airtouch) — AirTouch integration with direct-connection mode for cross-VLAN setups.
+| Repo | What it is |
+|---|---|
+| [hass-airtouch](https://github.com/mycrouch/hass-airtouch) | Polyaire AirTouch 4/5 integration (fork) with a direct-connection mode for consoles on a different subnet/VLAN |
+| [airtouch-card](https://github.com/mycrouch/airtouch-card) | Lovelace card for AirTouch 4/5 - console-style zone control with GUI editor and auto-discovery |
+| [airtouch-gradient-themes](https://github.com/mycrouch/airtouch-gradient-themes) | 20 gradient dashboard themes matching the card styling |
+| [ecovacs-vacuum-card](https://github.com/mycrouch/ecovacs-vacuum-card) | Ecovacs/Deebot vacuum card with per-card theming (default / installed theme / manual gradient) |
 
 ## License
 
