@@ -1,5 +1,12 @@
 # Gradient Themes
 
+
+<p align="center">
+  <img src="images/showcase-dark.png" width="48%" alt="Gradient (dark) variants - Blue, Red, Emerald, Violet, Gold, Pink, Cyan, Slate">
+  <img src="images/showcase-pastel.png" width="48%" alt="Pastel variants of the same colours">
+</p>
+<p align="center"><sub>Gradient (dark) &middot; Pastel - eight of the twenty colours, applied per section to standard tile cards</sub></p>
+
 Home Assistant themes with diagonal gradient card backgrounds in twenty colours, each available in two variants: **Gradient** (dark, rich tones with white text) and **Pastel** (light, soft tones with dark text). Forty themes in total.
 
 Every card gets the gradient background with matched text, icon, slider and toggle colours, no borders and a soft shadow. Colours: Blue, Sky, Cyan, Teal, Emerald, Green, Lime, Gold, Amber, Orange, Red, Crimson, Pink, Magenta, Purple, Violet, Indigo, Midnight, Steel, Slate — as `Gradient <Colour>` (dark) and `Pastel <Colour>` (light). Each theme also exposes the raw gradient as `--card-gradient` for reuse in card-mod or custom cards.
