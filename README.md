@@ -1,22 +1,22 @@
-# AirTouch Gradient Themes
+# Gradient Themes
 
-Home Assistant themes with the diagonal gradient card styling from the [AirTouch Card](https://github.com/mycrouch/airtouch-card), in six selectable colours:
+Home Assistant themes with the diagonal gradient card styling from the [AirTouch Card](https://github.com/mycrouch/airtouch-card), in six selectable colours: Blue, Red, Amber, Cyan, Teal and Slate.
 
 | Theme | Gradient |
 |---|---|
-| AirTouch Cool | deep navy → blue |
-| AirTouch Heat | dark ember → orange |
-| AirTouch Dry | dark bronze → amber |
-| AirTouch Fan | dark teal → cyan |
-| AirTouch Teal | slate blue → teal |
-| AirTouch Slate | graphite → slate grey |
+| Gradient Blue | deep navy → blue |
+| Gradient Red | dark ember → orange |
+| Gradient Amber | dark bronze → amber |
+| Gradient Cyan | dark teal → cyan |
+| Gradient Teal | slate blue → teal |
+| Gradient Slate | graphite → slate grey |
 
-Every card gets the gradient background with white text, tuned icon/slider/toggle colours, no borders and a soft shadow — the whole dashboard takes on the AirTouch console look. Each theme also exposes the raw gradient as `--airtouch-gradient` for reuse in card-mod or custom cards.
+Every card gets the gradient background with white text, tuned icon/slider/toggle colours, no borders and a soft shadow — the whole dashboard takes on the AirTouch console look. Each theme also exposes the raw gradient as `--card-gradient` for reuse in card-mod or custom cards.
 
 ## Installation
 
 1. HACS → menu (⋮) → **Custom repositories** → add `https://github.com/mycrouch/airtouch-gradient-themes`, category **Theme**.
-2. Download **AirTouch Gradient Themes**, then reload themes (Developer Tools → YAML → Themes) or restart HA.
+2. Download **Gradient Themes**, then reload themes (Developer Tools → YAML → Themes) or restart HA.
 3. Requires `frontend: themes: !include_dir_merge_named themes` in `configuration.yaml` (already present if you use any HACS theme).
 
 ## Usage

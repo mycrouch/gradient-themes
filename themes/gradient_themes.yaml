@@ -1,12 +1,12 @@
-# AirTouch Gradient Themes
+# Gradient Themes
 # Gradient card backgrounds matching the AirTouch Card (mycrouch/airtouch-card).
 # Select per dashboard, per view, or in your profile. Each variant applies the
 # same diagonal gradient the card uses, plus dark-surface-friendly text,
-# icon and control colours. The raw gradient is exposed as --airtouch-gradient
+# icon and control colours. The raw gradient is exposed as --card-gradient
 # for reuse in card-mod or custom cards.
 
-AirTouch Cool:
-  airtouch-gradient: "linear-gradient(145deg, #0d2b45 0%, #1565c0 130%)"
+Gradient Blue:
+  card-gradient: "linear-gradient(145deg, #0d2b45 0%, #1565c0 130%)"
   ha-card-background: "linear-gradient(145deg, #0d2b45 0%, #1565c0 130%)"
   card-background-color: "#123a59"
   primary-color: "#8ab4f8"
@@ -30,8 +30,8 @@ AirTouch Cool:
   input-ink-color: "#ffffff"
   input-label-ink-color: "rgba(255,255,255,0.7)"
 
-AirTouch Heat:
-  airtouch-gradient: "linear-gradient(145deg, #3e1a0f 0%, #e65100 130%)"
+Gradient Red:
+  card-gradient: "linear-gradient(145deg, #3e1a0f 0%, #e65100 130%)"
   ha-card-background: "linear-gradient(145deg, #3e1a0f 0%, #e65100 130%)"
   card-background-color: "#5a2a14"
   primary-color: "#ffab6e"
@@ -55,8 +55,8 @@ AirTouch Heat:
   input-ink-color: "#ffffff"
   input-label-ink-color: "rgba(255,255,255,0.7)"
 
-AirTouch Dry:
-  airtouch-gradient: "linear-gradient(145deg, #3a2f0b 0%, #b28704 130%)"
+Gradient Amber:
+  card-gradient: "linear-gradient(145deg, #3a2f0b 0%, #b28704 130%)"
   ha-card-background: "linear-gradient(145deg, #3a2f0b 0%, #b28704 130%)"
   card-background-color: "#54470f"
   primary-color: "#ffd54f"
@@ -80,8 +80,8 @@ AirTouch Dry:
   input-ink-color: "#ffffff"
   input-label-ink-color: "rgba(255,255,255,0.7)"
 
-AirTouch Fan:
-  airtouch-gradient: "linear-gradient(145deg, #0b3538 0%, #00838f 130%)"
+Gradient Cyan:
+  card-gradient: "linear-gradient(145deg, #0b3538 0%, #00838f 130%)"
   ha-card-background: "linear-gradient(145deg, #0b3538 0%, #00838f 130%)"
   card-background-color: "#0e4a4f"
   primary-color: "#4dd0e1"
@@ -105,8 +105,8 @@ AirTouch Fan:
   input-ink-color: "#ffffff"
   input-label-ink-color: "rgba(255,255,255,0.7)"
 
-AirTouch Teal:
-  airtouch-gradient: "linear-gradient(145deg, #12303d 0%, #00695c 130%)"
+Gradient Teal:
+  card-gradient: "linear-gradient(145deg, #12303d 0%, #00695c 130%)"
   ha-card-background: "linear-gradient(145deg, #12303d 0%, #00695c 130%)"
   card-background-color: "#164a49"
   primary-color: "#4db6ac"
@@ -130,8 +130,8 @@ AirTouch Teal:
   input-ink-color: "#ffffff"
   input-label-ink-color: "rgba(255,255,255,0.7)"
 
-AirTouch Slate:
-  airtouch-gradient: "linear-gradient(145deg, #23272b 0%, #3a4046 130%)"
+Gradient Slate:
+  card-gradient: "linear-gradient(145deg, #23272b 0%, #3a4046 130%)"
   ha-card-background: "linear-gradient(145deg, #23272b 0%, #3a4046 130%)"
   card-background-color: "#2c3136"
   primary-color: "#90a4ae"
