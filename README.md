@@ -21,14 +21,19 @@ Every card gets the gradient background with matched text, icon, slider and togg
 
 Pick a theme per dashboard (dashboard settings), per view (view settings → theme), or globally in your user profile. Themes can also be applied per **section** (section settings) or per **card** where the card supports it - the ecovacs-vacuum-card below has a built-in per-card theme picker. Mixing variants per view works well — e.g. Cool for climate, Slate for utilities.
 
-## Related projects
+## The mycrouch card collection
 
-| Repo | What it is |
-|---|---|
-| [hass-airtouch](https://github.com/mycrouch/hass-airtouch) | Polyaire AirTouch 4/5 integration (fork) with a direct-connection mode for consoles on a different subnet/VLAN |
-| [airtouch-card](https://github.com/mycrouch/airtouch-card) | Lovelace card for AirTouch 4/5 - console-style zone control with GUI editor and auto-discovery |
-| [airtouch-gradient-themes](https://github.com/mycrouch/airtouch-gradient-themes) | 20 gradient dashboard themes matching the card styling |
-| [ecovacs-vacuum-card](https://github.com/mycrouch/ecovacs-vacuum-card) | Ecovacs/Deebot vacuum card with per-card theming (default / installed theme / manual gradient) |
+**gradient-themes** provides 40 diagonal-gradient and pastel dashboard backgrounds that pair with the mycrouch Lovelace card collection below — each of those cards also ships its own per-card **theme** picker, so they share one coherent look whether you theme them individually or globally.
+
+| Project | What it is |
+| --- | --- |
+| [entity-group-card](https://github.com/mycrouch/entity-group-card) | Group any device's entities as a row list or chip grid |
+| [pro-v-weather-card](https://github.com/mycrouch/pro-v-weather-card) | Weather-station console — clock, moon, forecast, UV, solar, wind |
+| [weather-station-card](https://github.com/mycrouch/weather-station-card) | LCD-console weather station with backlight themes |
+| [airtouch-card](https://github.com/mycrouch/airtouch-card) | AirTouch 4/5 AC + zone control |
+| [sensibo-thermostat-card](https://github.com/mycrouch/sensibo-thermostat-card) | Sensibo thermostat with mode-coloured backgrounds |
+| [ecovacs-vacuum-card](https://github.com/mycrouch/ecovacs-vacuum-card) | Ecovacs/Deebot vacuum with area cleaning |
+| **gradient-themes** (this theme set) | 40 gradient + pastel dashboard themes |
 
 ## License
 
