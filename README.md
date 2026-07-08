@@ -27,7 +27,7 @@ Pick a theme per dashboard (dashboard settings), per view (view settings → the
 
 | Project | What it is |
 | --- | --- |
-| [kirigami-card](https://github.com/mycrouch/kirigami-card) | Group any device's entities as a row list or chip grid |
+| [origami-entity-card](https://github.com/mycrouch/origami-entity-card) | Group any device's entities as a row list or chip grid |
 | [pro-v-weather-card](https://github.com/mycrouch/pro-v-weather-card) | Weather-station console — clock, moon, forecast, UV, solar, wind |
 | [weather-station-card](https://github.com/mycrouch/weather-station-card) | LCD-console weather station with backlight themes |
 | [airtouch-card](https://github.com/mycrouch/airtouch-card) | AirTouch 4/5 AC + zone control |
